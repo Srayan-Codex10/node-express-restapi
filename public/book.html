@@ -1,0 +1,38 @@
+<div class="container">
+    <hr>
+    <h1>Create a new Book</h1>
+    <hr>
+    <form action="http://localhost:3000/lib/book" method="POST">
+        <div class="form-group">
+            <label for="ISBN">ISBN</label>
+            <input class="form-control" name="isbn">
+        </div>
+
+        <div>
+            <label for="Title">Title</label>
+            <input class="form-control" name="title"> 
+        </div>
+
+        <div>
+            <label for="Author">Author</label>
+            <input class="form-control" name="auth"> 
+        </div>
+
+        <div>
+            <label for="Published Date">Published Date</label>
+            <input class="form-control" name="pub-date" type="date"> 
+        </div>
+
+        <div>
+            <label for="Publisher">Publisher</label>
+            <input class="form-control" name="pub">
+        </div>
+
+        <div>
+            <label for="Pages">Pages</label>
+            <input class="form-control" name="pages"> 
+        </div>
+
+        <button type="submit" class="btn btn-primary">Submit</buttom>
+    </form>
+</div>
